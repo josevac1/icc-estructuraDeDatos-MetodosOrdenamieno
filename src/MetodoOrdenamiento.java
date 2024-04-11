@@ -27,9 +27,11 @@ public class MetodoOrdenamiento {
                     int temporal=arreglo[i];
                     arreglo[i]=arreglo[j];
                     arreglo[j]=temporal;
-                    if (logs) {}
+                    if (logs) {
                         System.out.println(" ");
+                       
                         imprimir(arreglo);
+                    }
                     }
                 }
             }
